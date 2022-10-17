@@ -1,0 +1,52 @@
+
+
+@font-face {
+    font-family: Nosifer;
+    src: url(/fonts/Nosifer/Nosifer-Regular.ttf);
+}
+@font-face {
+    src: url(/fonts/Roboto/Roboto-Regular.ttf);
+    font-family: Roboto ;
+}
+
+
+body {
+    background-color: lightblue;
+}
+
+p {
+    font-size: 120%;
+    color: dimgray;
+    
+    
+}
+p.important {
+    border-style: solid;
+    display: inline-block;
+    border-width: 5px;
+    border-color: blue;
+    font-family: Roboto;
+}
+
+.center {
+    display:block;
+    margin: auto;
+}
+
+.centertext {
+    text-align: center;
+    font-family: Nosifer;
+}
+
+figure {
+    float: center;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin lightsalmon solid;
+    padding-top: 100;
+}
+figcaption {
+    caption-side: bottom;
+}
